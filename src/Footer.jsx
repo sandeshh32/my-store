@@ -8,6 +8,7 @@ function Footer() {
          <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
          <Link to="/help">Help</Link>
+          <Link to="/cart">Cart</Link>
       </div>
         
       

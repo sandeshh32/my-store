@@ -1,7 +1,8 @@
+
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-function ProductDetails() {
+function ProductDetails({ cart, setCart }) {
   const { id } = useParams();
 
   const [product, setProduct] = useState(null);
@@ -95,6 +96,14 @@ function ProductDetails() {
             <strong>Stock:</strong>{" "}
             {product.stock}
           </p>
+
+          <button
+            onClick={() => {
+              setCart([...cart, product]);
+            }}
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
     </main>
@@ -102,3 +111,4 @@ function ProductDetails() {
 }
 
 export default ProductDetails;
+
