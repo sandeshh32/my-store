@@ -26,7 +26,7 @@ function AddProduct() {
   }
 
   return (
-    <main className="main-content">
+  <main className="main-content add-product-page">
       <h1>Add Product</h1>
 
       <input

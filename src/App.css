@@ -721,3 +721,55 @@ body,
   color: white;
 }
 
+
+/* =========================
+   ABOUT
+========================= */
+
+.about-page {
+  max-width: 800px;
+}
+
+.about-page h1 {
+  margin-bottom: 20px;
+  color: #1a1c22;
+}
+
+.about-page p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+/* =========================
+   ADD PRODUCT
+========================= */
+
+.add-product-page input {
+  display: block;
+
+  width: 100%;
+  max-width: 400px;
+
+  padding: 12px 14px;
+
+  margin-bottom: 15px;
+
+  font-size: 16px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  background: white;
+  color: #111827;
+}
+
+.add-product-page input:focus {
+  outline: none;
+  border-color: #333;
+}
+.add-product-page h1 {
+  margin-bottom: 20px;
+  color: #1a1c22;
+}
+
